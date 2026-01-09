@@ -1,0 +1,11 @@
+java-jenkins-demo/
+├── Jenkinsfile
+├── pom.xml
+└── src
+    └── main
+        └── java
+            └── com
+                └── example
+                    └── demo
+                        ├── DemoApplication.java
+                        └── HelloController.java
