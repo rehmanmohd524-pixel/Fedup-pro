@@ -4,7 +4,7 @@ pipeline {
         stage('clone repo') { 
             steps {
                 sh "rm -rf teks-mavenproject"
-                sh "git clone https://github.com/rehmanmohd524-pixel/Fedup-pro.git
+                sh "git clone https://github.com/rehmanmohd524-pixel/Fedup-pro.git"
                 sh "mvn clean -f mavenproject"
             }
         }
@@ -36,3 +36,4 @@ pipeline {
     }
 
 }
+
